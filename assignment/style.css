@@ -1,11 +1,29 @@
-/* Give your page a fun background color */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
 
-/* Make the header and footer a different color from the background */
+.exp-header {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(0,0,0, 0.4)
+}
 
-/* Align the h1 containing your name in the center of the header*/
+#name {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(0,0,0, 0.1)
+}
 
-/* Make your p tag a different color and italic */
-
-/* Put a border around your image */
-
-/* Change the font-family of your list */
+.footer {
+  background: white;
+  color: black
+  border: 1px;
+  padding-left: 6px
+}
