@@ -1,8 +1,21 @@
-.center {
+
+body {
+  background-color: #FF7F00;
+}
+
+#center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  border: 15px;
+}
+
+img {
+  border-color: red;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 25%;
 }
 
 .exp-header {
@@ -24,6 +37,16 @@
 .footer {
   background: white;
   color: black
-  border: 1px;
-  padding-left: 6px
+  border: 1px solid black;
+  padding-left: 10px
+}
+
+p {
+  color: blue;
+  font-family: italic;
+}
+
+li {
+  font-size: 25px;
+  font-family: fantasy;
 }
